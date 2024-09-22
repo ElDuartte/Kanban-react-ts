@@ -1,2 +1,5 @@
-/* To import the other css files */
+/* Organize CSS files */
 @import "App.css";
+
+/* Pages */
+@import "Task.css";

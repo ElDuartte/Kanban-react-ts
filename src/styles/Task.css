@@ -1,0 +1,44 @@
+.task-container {
+  border: solid 2px var(--border-color-primary);
+  border-radius: 15px;
+  width: 300px;
+  height: fit-content;
+  padding: 15px;
+}
+
+.tag-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  gap: 10px;
+  margin: 10px 0;
+}
+.tag {
+  /* border: solid 2px var(--border-color-primary); */
+  border-width: 2px;
+  border-style: solid;
+  border-color: var(--border-color-primary);
+  border-radius: 5px;
+  padding: 4px 12px;
+  height: 20px;
+  width: auto;
+  &.priority-high {
+    border-color: rgba(224, 49, 49, 0.8);
+  }
+  &.priority-medium {
+    border-color: rgba(224, 224, 49, 0.6);
+  }
+  &.priority-low {
+    border-color: rgba(49, 224, 49, 0.6);
+  }
+}
+
+.description__short {
+  max-height: auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* number of lines you want to display */
+  -webkit-box-orient: vertical;
+}
