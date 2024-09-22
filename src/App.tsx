@@ -1,9 +1,9 @@
-import Task from "./components/Task";
+import TaskList from "./pages/TaskList";
 
 function App() {
   return (
     <>
-      <Task />
+      <TaskList />
     </>
   );
 }
