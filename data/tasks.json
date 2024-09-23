@@ -19,7 +19,7 @@
       "title": "Make money",
       "project": "Life",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias laborum neque hic illo! Dolores perferendis commodi, quisquam rerum veniam amet consequatur laudantium aliquid praesentium, tempora expedita consequuntur voluptatibus. Odio, magni.",
-      "status": "In Progress",
+      "status": "To Do",
       "date": "22-09-2024"
     },
     {
@@ -30,8 +30,228 @@
       "title": "Make money",
       "project": "Life",
       "description": "Make projects to make money",
-      "status": "In Progress",
+      "status": "Review",
       "date": "22-09-2024"
+    },
+    {
+      "id": 4,
+      "creator": "PM",
+      "assigned": "Maria",
+      "priority": "High",
+      "title": "Build a website",
+      "project": "Tech",
+      "description": "Create a new e-commerce platform",
+      "status": "Review",
+      "date": "23-09-2024"
+    },
+    {
+      "id": 5,
+      "creator": "PM",
+      "assigned": "John",
+      "priority": "Medium",
+      "title": "Design marketing campaign",
+      "project": "Marketing",
+      "description": "Design a new campaign for product launch",
+      "status": "In Progress",
+      "date": "24-09-2024"
+    },
+    {
+      "id": 6,
+      "creator": "PM",
+      "assigned": "Sara",
+      "priority": "Low",
+      "title": "Organize team meeting",
+      "project": "Internal",
+      "description": "Set up a quarterly team meeting",
+      "status": "Completed",
+      "date": "25-09-2024"
+    },
+    {
+      "id": 7,
+      "creator": "PM",
+      "assigned": "Alex",
+      "priority": "High",
+      "title": "Develop mobile app",
+      "project": "Mobile",
+      "description": "Create an Android version of our app",
+      "status": "To Do",
+      "date": "26-09-2024"
+    },
+    {
+      "id": 8,
+      "creator": "PM",
+      "assigned": "Martha",
+      "priority": "Medium",
+      "title": "Plan quarterly review",
+      "project": "HR",
+      "description": "Prepare for the company's quarterly performance review",
+      "status": "In Progress",
+      "date": "27-09-2024"
+    },
+    {
+      "id": 9,
+      "creator": "PM",
+      "assigned": "Tom",
+      "priority": "Low",
+      "title": "Research competitor products",
+      "project": "Strategy",
+      "description": "Analyze competitors' offerings",
+      "status": "Review",
+      "date": "28-09-2024"
+    },
+    {
+      "id": 10,
+      "creator": "PM",
+      "assigned": "Luis",
+      "priority": "High",
+      "title": "Hire new developer",
+      "project": "HR",
+      "description": "Interview and hire a new backend developer",
+      "status": "In Progress",
+      "date": "29-09-2024"
+    },
+    {
+      "id": 11,
+      "creator": "PM",
+      "assigned": "Sophie",
+      "priority": "Medium",
+      "title": "Write user documentation",
+      "project": "Docs",
+      "description": "Create user guides for the new software release",
+      "status": "To Do",
+      "date": "30-09-2024"
+    },
+    {
+      "id": 12,
+      "creator": "PM",
+      "assigned": "Jacob",
+      "priority": "Low",
+      "title": "Update website content",
+      "project": "Web",
+      "description": "Revise outdated sections of the company website",
+      "status": "In Progress",
+      "date": "01-10-2024"
+    },
+    {
+      "id": 13,
+      "creator": "PM",
+      "assigned": "Emma",
+      "priority": "High",
+      "title": "Launch product beta",
+      "project": "Product",
+      "description": "Prepare the product beta for initial users",
+      "status": "Review",
+      "date": "02-10-2024"
+    },
+    {
+      "id": 14,
+      "creator": "PM",
+      "assigned": "Luke",
+      "priority": "Medium",
+      "title": "Test new API",
+      "project": "Development",
+      "description": "Run tests on the newly developed API",
+      "status": "In Progress",
+      "date": "03-10-2024"
+    },
+    {
+      "id": 15,
+      "creator": "PM",
+      "assigned": "Nina",
+      "priority": "Low",
+      "title": "Prepare project report",
+      "project": "Internal",
+      "description": "Summarize project milestones and progress",
+      "status": "Completed",
+      "date": "04-10-2024"
+    },
+    {
+      "id": 16,
+      "creator": "PM",
+      "assigned": "Carlos",
+      "priority": "High",
+      "title": "Optimize database",
+      "project": "Infrastructure",
+      "description": "Improve database performance and reduce load times",
+      "status": "To Do",
+      "date": "05-10-2024"
+    },
+    {
+      "id": 17,
+      "creator": "PM",
+      "assigned": "Olivia",
+      "priority": "Medium",
+      "title": "Conduct customer feedback survey",
+      "project": "Marketing",
+      "description": "Collect feedback from users to guide future updates",
+      "status": "Review",
+      "date": "06-10-2024"
+    },
+    {
+      "id": 18,
+      "creator": "PM",
+      "assigned": "Victor",
+      "priority": "Low",
+      "title": "Redesign company logo",
+      "project": "Branding",
+      "description": "Come up with a new modern logo for the company",
+      "status": "To Do",
+      "date": "07-10-2024"
+    },
+    {
+      "id": 19,
+      "creator": "PM",
+      "assigned": "Zara",
+      "priority": "High",
+      "title": "Launch advertising campaign",
+      "project": "Marketing",
+      "description": "Kick off the online ad campaign for the new product",
+      "status": "Review",
+      "date": "08-10-2024"
+    },
+    {
+      "id": 20,
+      "creator": "PM",
+      "assigned": "James",
+      "priority": "Medium",
+      "title": "Migrate to cloud infrastructure",
+      "project": "Tech",
+      "description": "Move internal systems to cloud-based infrastructure",
+      "status": "To Do",
+      "date": "09-10-2024"
+    },
+    {
+      "id": 21,
+      "creator": "PM",
+      "assigned": "Bella",
+      "priority": "Low",
+      "title": "Revamp blog content",
+      "project": "Content",
+      "description": "Update blog posts and add fresh content",
+      "status": "Review",
+      "date": "10-10-2024"
+    },
+    {
+      "id": 22,
+      "creator": "PM",
+      "assigned": "Oscar",
+      "priority": "High",
+      "title": "Integrate payment gateway",
+      "project": "E-commerce",
+      "description": "Add new payment gateway to the online store",
+      "status": "To Do",
+      "date": "11-10-2024"
+    },
+    {
+      "id": 23,
+      "creator": "PM",
+      "assigned": "",
+      "priority": "Medium",
+      "title": "Fix website bugs",
+      "project": "Web",
+      "description": "Address bugs found in the latest website update",
+      "status": "Review",
+      "date": "12-10-2024"
     }
   ]
 }
