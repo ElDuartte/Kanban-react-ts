@@ -10,6 +10,22 @@
 * {
   padding: 0;
   margin: 0;
+  scrollbar-width: auto;
+  scrollbar-color: #3a3a46 #1e1e24;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #3a3a46;
+  border-radius: 50px;
+  border: 2px solid #af469d;
 }
 
 body {

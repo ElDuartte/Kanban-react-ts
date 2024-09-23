@@ -1,0 +1,45 @@
+.taskList-container {
+  margin-top: 20px;
+  text-align: center;
+  height: auto;
+}
+
+.status-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 390px);
+  grid-template-rows: auto;
+  margin-top: 20px;
+  justify-items: center;
+  width: 100%;
+  height: 90dvh;
+  overflow-x: auto;
+  gap: 20px;
+}
+
+.status-column {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 20px;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+.list-title {
+  margin-bottom: 20px;
+}
+
+.status-column-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 90dvh;
+}
+
+.status-header {
+  background-color: var(--background-color-primary);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  padding: 10px;
+  text-align: center;
+}

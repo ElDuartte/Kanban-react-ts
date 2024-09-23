@@ -1,9 +1,10 @@
 .task-container {
   border: solid 2px var(--border-color-primary);
   border-radius: 15px;
-  width: 300px;
+  width: 350px;
   height: fit-content;
   padding: 15px;
+  text-align: left;
 }
 
 .tag-container {
@@ -14,8 +15,8 @@
   gap: 10px;
   margin: 10px 0;
 }
+
 .tag {
-  /* border: solid 2px var(--border-color-primary); */
   border-width: 2px;
   border-style: solid;
   border-color: var(--border-color-primary);
@@ -31,6 +32,9 @@
   }
   &.priority-low {
     border-color: rgba(49, 224, 49, 0.6);
+  }
+  &.assigned{
+    background-color: var(--border-color-primary);
   }
 }
 
