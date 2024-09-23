@@ -12,9 +12,12 @@ export default function Task({ task }: { task: TaskType }) {
     <div className="task-container">
       <h1>{task.title}</h1>
       <div className="tag-container">
-        <a className={`priority-tag tag__red tag ${priorityClass}`}>
-          {task.priority}
-        </a>
+        <a className={`priority-tag tag ${priorityClass}`}>{task.priority}</a>
+
+        {task.assigned != "" && (
+          <a className="priority-tag tag assigned">{task.assigned}</a>
+        )}
+
         <a className="project-tag tag">{task.project}</a>
       </div>
       <p className="description__short">{task.description}</p>
